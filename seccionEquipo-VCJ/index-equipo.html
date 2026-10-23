@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Equipo | ELECTRONICS.OLG</title>
+
+    <link rel="stylesheet" href="equipo.css">
+    <script src="equipo.js" defer></script>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="navbar__container">
+
+            <a href="index.html" class="navbar__brand">
+                <span class="logo-icon">E</span>
+                ELECTRONICS<span class="dorado">.ORG</span>
+            </a>
+
+            <button
+                class="navbar__toggle"
+                id="navbarToggle"
+                aria-label="Abrir menú de navegación"
+                aria-controls="navbarMenu"
+                aria-expanded="false"
+                type="button">
+
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <nav id="navbarMenu" class="navbar__menu"
+                 aria-label="Navegación principal">
+
+                <ul class="navbar__list">
+
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__link">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a href="servicios.html" class="navbar__link">
+                            Servicios
+                        </a>
+                    </li>
+
+                    <li class="navbar__item">
+                        <a href="index-equipo.html"
+                           class="navbar__link activo"
+                           aria-current="page">
+                            Equipo
+                        </a>
+                    </li>
+
+                    <li class="navbar__item navbar__item--cta">
+                        <a href="#contacto"
+                           class="navbar__link navbar__link--cta">
+                            Contáctanos
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- PRESENTACIÓN DEL EQUIPO -->
+        <section class="presentacion">
+            <div class="presentacion__contenido">
+
+                <p class="presentacion__etiqueta">
+                    CONOCE A NUESTRO EQUIPO
+                </p>
+
+                <h1>
+                    Las personas detrás de
+                    <span>nuestra tecnología</span>
+                </h1>
+
+                <div class="linea-dorada"></div>
+
+                <p class="presentacion__descripcion">
+                    En ELECTRONICS.ORG contamos con profesionales
+                    comprometidos con la innovación, la tecnología
+                    y la calidad. Trabajamos juntos para ofrecer
+                    soluciones tecnológicas que respondan a las
+                    necesidades de nuestros clientes.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE INTEGRANTES -->
+        <section class="equipo" id="integrantes">
+
+            <div class="equipo__contenedor">
+
+                <div class="equipo__encabezado">
+                    <h2>Nuestro equipo de trabajo</h2>
+
+                    <p>
+                        Conoce a los profesionales que hacen
+                        posible cada uno de nuestros proyectos.
+                    </p>
+                </div>
+
+                <div class="contenedor-integrantes">
+
+                    <!-- INTEGRANTE 1 -->
+                    <article class="integrante">
+
+                        <div class="integrante__imagen">
+                            <img
+                                src="https://placehold.co/200x200/102440/D6AD60?text=CM"
+                                alt="Perfil de Carlos Mendoza">
+                        </div>
+
+                        <p class="integrante__numero">01 / DIRECCIÓN</p>
+
+                        <h3>Carlos Mendoza</h3>
+
+                        <h4>Director general</h4>
+
+                        <p class="integrante__descripcion">
+                            Responsable de dirigir los proyectos,
+                            coordinar al equipo y establecer las
+                            estrategias para el crecimiento de
+                            la empresa.
+                        </p>
+
+                    </article>
+
+                    <!-- INTEGRANTE 2 -->
+                    <article class="integrante">
+
+                        <div class="integrante__imagen">
+                            <img
+                                src="https://placehold.co/200x200/102440/D6AD60?text=AT"
+                                alt="Perfil de Andrea Torres">
+                        </div>
+
+                        <p class="integrante__numero">02 / DISEÑO</p>
+
+                        <h3>Andrea Torres</h3>
+
+                        <h4>Diseñadora web</h4>
+
+                        <p class="integrante__descripcion">
+                            Encargada de diseñar interfaces modernas,
+                            atractivas y fáciles de utilizar,
+                            cuidando la experiencia de los usuarios.
+                        </p>
+
+                    </article>
+
+                    <!-- INTEGRANTE 3 -->
+                    <article class="integrante">
+
+                        <div class="integrante__imagen">
+                            <img
+                                src="https://placehold.co/200x200/102440/D6AD60?text=LR"
+                                alt="Perfil de Luis Ramírez">
+                        </div>
+
+                        <p class="integrante__numero">03 / DESARROLLO</p>
+
+                        <h3>Luis Ramírez</h3>
+
+                        <h4>Desarrollador web</h4>
+
+                        <p class="integrante__descripcion">
+                            Desarrolla y mantiene las páginas web,
+                            implementando soluciones funcionales
+                            mediante tecnologías modernas.
+                        </p>
+
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section class="contacto" id="contacto">
+            <div class="contacto__contenido">
+
+                <h2>¿Trabajamos juntos?</h2>
+
+                <p>
+                    Nuestro equipo está preparado para ayudarte
+                    con tus próximos proyectos tecnológicos.
+                </p>
+
+                <a href="mailto:contacto@electronicsolg.com"
+                   class="contacto__boton">
+                    Contáctanos
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <p>
+            &copy; 2026
+            <span>ELECTRONICS.OLG</span>.
+            Todos los derechos reservados.
+        </p>
+    </footer>
+
+</body>
+</html>
